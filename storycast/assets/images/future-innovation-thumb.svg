@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" role="img" aria-labelledby="title desc">
+  <title id="title">Future of African Innovation banner illustration</title>
+  <desc id="desc">Video frame, laptop, data nodes, and captions arranged in a clean editorial composition.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1E3A5F"/>
+      <stop offset="1" stop-color="#243e69"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff7f50"/>
+      <stop offset="1" stop-color="#ffb089"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="28" flood-color="#0e1e33" flood-opacity=".16"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="700" fill="url(#bg)"/>
+  <circle cx="1370" cy="110" r="160" fill="rgba(255,255,255,.08)"/>
+  <circle cx="180" cy="130" r="120" fill="rgba(255,127,80,.12)"/>
+  <path d="M0 520C180 470 280 468 422 498s252 84 430 40 282-106 748-28v190H0Z" fill="#f8f9fa"/>
+  <g filter="url(#shadow)">
+    <rect x="108" y="118" width="612" height="384" rx="34" fill="#ffffff"/>
+    <rect x="758" y="92" width="724" height="468" rx="42" fill="rgba(255,255,255,.12)" stroke="rgba(255,255,255,.16)"/>
+  </g>
+  <g>
+    <rect x="152" y="160" width="524" height="260" rx="28" fill="#f6f8fb" stroke="#d8e1ea"/>
+    <circle cx="414" cy="290" r="78" fill="#1e3a5f"/>
+    <path d="M388 254L460 290 388 326Z" fill="#ff7f50"/>
+    <rect x="164" y="430" width="500" height="14" rx="7" fill="#d8e1ea"/>
+    <rect x="164" y="458" width="324" height="12" rx="6" fill="#d8e1ea"/>
+    <rect x="164" y="484" width="272" height="12" rx="6" fill="#d8e1ea"/>
+  </g>
+  <g transform="translate(830 132)">
+    <rect x="0" y="0" width="620" height="360" rx="32" fill="#ffffff"/>
+    <rect x="30" y="30" width="560" height="300" rx="24" fill="#f6f8fb" stroke="#d8e1ea"/>
+    <path d="M54 252h140v-42H54z" fill="#ffe5dc" stroke="#ffd3c0"/>
+    <path d="M214 204h178v48H214z" fill="#1e3a5f"/>
+    <path d="M410 172h148v80H410z" fill="#ff7f50"/>
+    <path d="M54 146c28-32 48-32 76 0s48 32 76 0 48-32 76 0 48 32 76 0 48-32 76 0" fill="none" stroke="#1e3a5f" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="156" cy="126" r="12" fill="#ff7f50"/>
+    <circle cx="300" cy="102" r="10" fill="#ff7f50"/>
+    <circle cx="470" cy="126" r="12" fill="#ff7f50"/>
+    <path d="M240 76h82l24 30h-82z" fill="#d8e1ea"/>
+    <rect x="78" y="252" width="114" height="14" rx="7" fill="#c9d4e2"/>
+    <rect x="238" y="264" width="126" height="14" rx="7" fill="#c9d4e2"/>
+    <rect x="402" y="240" width="122" height="14" rx="7" fill="#c9d4e2"/>
+  </g>
+  <g transform="translate(1130 468)">
+    <rect x="0" y="0" width="290" height="88" rx="44" fill="#ff7f50"/>
+    <path d="M34 24h222M34 44h164M34 64h194" stroke="#1e3a5f" stroke-width="6" stroke-linecap="round"/>
+  </g>
+</svg>

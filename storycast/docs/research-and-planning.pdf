@@ -1,0 +1,206 @@
+%PDF-1.4
+1 0 obj << /Type /Catalog /Pages 2 0 R >> endobj
+2 0 obj << /Type /Pages /Kids [5 0 R 7 0 R] /Count 2 >> endobj
+3 0 obj << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >> endobj
+4 0 obj << /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >> endobj
+5 0 obj << /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R >> endobj
+6 0 obj << /Length 1282 >> stream
+BT
+/F2 18 Tf
+54 742 Td
+(StoryCast Research and Planning) Tj
+ET
+BT
+/F2 13 Tf
+54 706 Td
+(Project summary) Tj
+ET
+BT
+/F1 11 Tf
+54 684 Td
+(StoryCast is a 3-page accessible storytelling microsite with supporting story) Tj
+0 -14 Td
+(detail pages. The design focuses on semantic HTML, transcripts, captions, and) Tj
+0 -14 Td
+(calm editorial spacing.) Tj
+ET
+BT
+/F2 13 Tf
+54 636 Td
+(Information architecture) Tj
+ET
+BT
+/F1 11 Tf
+54 614 Td
+(- Home) Tj
+ET
+BT
+/F1 11 Tf
+54 596 Td
+(- Story detail) Tj
+ET
+BT
+/F1 11 Tf
+54 578 Td
+(- About / Access) Tj
+ET
+BT
+/F1 11 Tf
+54 560 Td
+(- Supporting story pages in /story) Tj
+ET
+BT
+/F2 13 Tf
+54 540 Td
+(Content order) Tj
+ET
+BT
+/F1 11 Tf
+54 518 Td
+(Home: hero, featured stories, categories, accessibility overview, footer) Tj
+ET
+BT
+/F1 11 Tf
+54 500 Td
+(Story detail: banner, media player, story copy, transcript, related stories) Tj
+ET
+BT
+/F1 11 Tf
+54 482 Td
+(About / Access: mission, accessibility features, engagement, contact) Tj
+ET
+BT
+/F2 13 Tf
+54 462 Td
+(Visual direction) Tj
+ET
+BT
+/F1 11 Tf
+54 440 Td
+(- Palette: deep navy, coral, off-white, and dark gray) Tj
+ET
+BT
+/F1 11 Tf
+54 422 Td
+(- Typography: Poppins for headings, Inter for body text) Tj
+ET
+BT
+/F1 11 Tf
+54 404 Td
+(- Layout: editorial spacing, card-based sections, and restrained motion) Tj
+ET
+endstream endobj
+7 0 obj << /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 8 0 R >> endobj
+8 0 obj << /Length 1337 >> stream
+BT
+/F2 18 Tf
+54 742 Td
+(Accessibility and build notes) Tj
+ET
+BT
+/F2 13 Tf
+54 706 Td
+(Accessibility checklist) Tj
+ET
+BT
+/F1 11 Tf
+54 684 Td
+(- Skip link on every page) Tj
+ET
+BT
+/F1 11 Tf
+54 666 Td
+(- Semantic landmarks and headings) Tj
+ET
+BT
+/F1 11 Tf
+54 648 Td
+(- Keyboard-accessible mobile menu) Tj
+ET
+BT
+/F1 11 Tf
+54 630 Td
+(- Visible focus states) Tj
+ET
+BT
+/F1 11 Tf
+54 612 Td
+(- Transcripts for audio stories) Tj
+ET
+BT
+/F1 11 Tf
+54 594 Td
+(- Captions for video stories) Tj
+ET
+BT
+/F1 11 Tf
+54 576 Td
+(- Meaningful alt text or decorative treatment) Tj
+ET
+BT
+/F1 11 Tf
+54 558 Td
+(- WCAG AA contrast targets) Tj
+ET
+BT
+/F1 11 Tf
+54 540 Td
+(- Grid, Flexbox, and container queries) Tj
+ET
+BT
+/F2 13 Tf
+54 520 Td
+(Build notes) Tj
+ET
+BT
+/F1 11 Tf
+54 498 Td
+(- Static implementation with vanilla HTML, Sass, CSS, and small JS) Tj
+ET
+BT
+/F1 11 Tf
+54 480 Td
+(- Sass tokens live in sass/_colors.scss, sass/_typography.scss, and) Tj
+0 -14 Td
+(sass/_spacing.scss) Tj
+ET
+BT
+/F1 11 Tf
+54 448 Td
+(- Compiled CSS is checked in to css/styles.css) Tj
+ET
+BT
+/F1 11 Tf
+54 430 Td
+(- Live story pages embed YouTube videos and pair them with local transcript) Tj
+0 -14 Td
+(files) Tj
+ET
+BT
+/F2 13 Tf
+54 396 Td
+(Local preview) Tj
+ET
+BT
+/F1 11 Tf
+54 374 Td
+(- Open index.html directly in a browser, or serve the folder with any static) Tj
+0 -14 Td
+(server) Tj
+ET
+endstream endobj
+xref
+0 9
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000121 00000 n 
+0000000191 00000 n 
+0000000266 00000 n 
+0000000402 00000 n 
+0000001735 00000 n 
+0000001871 00000 n 
+trailer << /Size 9 /Root 1 0 R >>
+startxref
+3259
+%%EOF

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn about StoryCast's mission, accessibility features, and ways to engage with the platform.">
+    <meta name="theme-color" content="#1E3A5F">
+    <title>About StoryCast | Access and mission</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <script defer src="js/main.js"></script>
+  </head>
+  <body class="page-about">
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <header class="site-header" data-nav>
+      <div class="site-shell site-header__inner">
+        <a class="brand" href="index.html" aria-label="StoryCast home">
+          <span class="brand__mark" aria-hidden="true">SC</span>
+          <span class="brand__wordmark">StoryCast</span>
+        </a>
+        <button class="nav-toggle" type="button" aria-controls="primary-navigation" aria-expanded="false" data-nav-toggle>
+          <span>Menu</span>
+          <span class="nav-toggle__icon" aria-hidden="true"><span></span><span></span><span></span></span>
+        </button>
+        <nav id="primary-navigation" class="site-nav" aria-label="Primary" data-nav-menu>
+          <ul class="site-nav__list">
+            <li><a class="site-nav__link" href="index.html">Home</a></li>
+            <li><a class="site-nav__link" href="index.html#stories">Stories</a></li>
+            <li><a class="site-nav__link" href="about.html" aria-current="page">About</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="hero section-shell site-shell">
+        <div class="hero__content">
+          <p class="eyebrow">About + access</p>
+          <h1>StoryCast is built to make storytelling more open, calm, and inclusive</h1>
+          <p class="hero__lede">We design each page as a clear path into the story, with support for transcripts, captions, keyboard navigation, and screen readers so the content stays useful even when the medium changes.</p>
+          <div class="hero__actions">
+            <a class="button button--primary" href="index.html#stories">Explore stories</a>
+            <a class="button button--ghost" href="#accessibility">Accessibility details</a>
+          </div>
+        </div>
+        <figure class="hero__media">
+          <img src="assets/images/about-hero.svg" alt="Abstract illustration of people, conversation bubbles, and access symbols in StoryCast colors.">
+          <figcaption>StoryCast treats accessibility as part of the editorial experience, not a separate layer.</figcaption>
+        </figure>
+      </section>
+
+      <section class="section-shell site-shell" aria-labelledby="mission-title">
+        <div class="section-heading">
+          <p class="eyebrow">Mission</p>
+          <h2 id="mission-title">A research-driven structure that keeps people oriented</h2>
+          <p class="section-intro">The information architecture follows a simple pattern: introduce the platform, move into a specific story, then explain the access model and how to participate. That keeps the navigation predictable for both new and returning visitors.</p>
+        </div>
+        <div class="callout-card">
+          <p>StoryCast uses editorial pacing, strong hierarchy, and flexible media layouts so the experience feels intentional on desktop and mobile. The visual design stays calm and warm while the interaction model keeps controls obvious.</p>
+          <p class="muted">The result is a microsite that works as a content showcase, a design system example, and an accessibility-first reference.</p>
+        </div>
+      </section>
+
+      <section id="accessibility" class="section-shell site-shell" aria-labelledby="accessibility-title">
+        <div class="section-heading">
+          <p class="eyebrow">Accessibility features</p>
+          <h2 id="accessibility-title">Designed around WCAG AA fundamentals</h2>
+          <p class="section-intro">These patterns are visible in the markup, the layout, and the media treatment so the experience remains navigable and readable for a wide range of users.</p>
+        </div>
+        <div class="access-grid">
+          <article class="access-card">
+            <div class="access-card__icon" aria-hidden="true">T</div>
+            <div>
+              <h3>Full transcripts</h3>
+              <p>Audio stories include full transcript files and in-page transcript sections with speaker labels.</p>
+            </div>
+          </article>
+          <article class="access-card">
+            <div class="access-card__icon" aria-hidden="true">CC</div>
+            <div>
+              <h3>Closed captions</h3>
+              <p>Video stories include caption tracks so spoken content is available without sound.</p>
+            </div>
+          </article>
+          <article class="access-card">
+            <div class="access-card__icon" aria-hidden="true">KB</div>
+            <div>
+              <h3>Keyboard navigation</h3>
+              <p>All interactive controls remain reachable and visibly focused with the keyboard alone.</p>
+            </div>
+          </article>
+          <article class="access-card">
+            <div class="access-card__icon" aria-hidden="true">SR</div>
+            <div>
+              <h3>Screen reader support</h3>
+              <p>Semantic landmarks, descriptive labels, and meaningful structure reduce guesswork.</p>
+            </div>
+          </article>
+          <article class="access-card">
+            <div class="access-card__icon" aria-hidden="true">AA</div>
+            <div>
+              <h3>WCAG 2.1 AA contrast</h3>
+              <p>The navy, coral, and light background palette is tuned for accessible contrast relationships.</p>
+            </div>
+          </article>
+          <article class="access-card">
+            <div class="access-card__icon" aria-hidden="true">HI</div>
+            <div>
+              <h3>High contrast design</h3>
+              <p>Focus states, button treatment, and type sizing stay legible across breakpoints.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-shell site-shell" aria-labelledby="engage-title">
+        <div class="section-heading">
+          <p class="eyebrow">How to engage</p>
+          <h2 id="engage-title">Ways the audience can participate</h2>
+          <p class="section-intro">The microsite supports not just consumption, but contribution and sharing as well.</p>
+        </div>
+        <div class="engage-grid">
+          <article class="engage-card">
+            <div class="engage-card__icon" aria-hidden="true">1</div>
+            <div>
+              <h3>Submit stories</h3>
+              <p>Pitch audio or video ideas that fit the StoryCast mission and audience.</p>
+            </div>
+          </article>
+          <article class="engage-card">
+            <div class="engage-card__icon" aria-hidden="true">2</div>
+            <div>
+              <h3>Share stories</h3>
+              <p>Use the story pages as a starting point for discussion, classroom use, or social sharing.</p>
+            </div>
+          </article>
+          <article class="engage-card">
+            <div class="engage-card__icon" aria-hidden="true">3</div>
+            <div>
+              <h3>Join the community</h3>
+              <p>Follow StoryCast updates and take part in future access reviews and listening sessions.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-shell site-shell" aria-labelledby="contact-title">
+        <div class="section-heading">
+          <p class="eyebrow">Contact</p>
+          <h2 id="contact-title">Keep in touch with StoryCast</h2>
+          <p class="section-intro">The contact section is intentionally simple so it works well for assistive technologies and on small screens.</p>
+        </div>
+        <div class="contact-grid">
+          <article class="contact-card">
+            <h3>Email</h3>
+            <p><a href="mailto:hello@storycast.audio">hello@storycast.audio</a></p>
+          </article>
+          <article class="contact-card">
+            <h3>Social</h3>
+            <p><a href="https://www.instagram.com/" rel="noopener noreferrer">Instagram</a> and <a href="https://www.linkedin.com/" rel="noopener noreferrer">LinkedIn</a></p>
+          </article>
+          <article class="contact-card">
+            <h3>Accessibility note</h3>
+            <p>Need a different format? Ask for the transcript, caption file, or a text summary.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="site-shell site-footer__inner">
+        <p>Copyright <span data-year></span> StoryCast. Built with semantic HTML, Sass, and vanilla JS.</p>
+        <div class="site-footer__links" aria-label="Footer links">
+          <a href="about.html#accessibility">Accessibility statement</a>
+          <a href="mailto:hello@storycast.audio">hello@storycast.audio</a>
+          <a href="https://www.instagram.com/" rel="noopener noreferrer">Instagram</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

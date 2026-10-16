@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="StoryCast is an accessible storytelling microsite with audio and video stories, transcripts, and captions.">
+    <meta name="theme-color" content="#1E3A5F">
+    <title>StoryCast | Accessible storytelling</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <script defer src="js/main.js"></script>
+  </head>
+  <body class="page-home">
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <header class="site-header" data-nav>
+      <div class="site-shell site-header__inner">
+        <a class="brand" href="index.html" aria-label="StoryCast home">
+          <span class="brand__mark" aria-hidden="true">SC</span>
+          <span class="brand__wordmark">StoryCast</span>
+        </a>
+        <button class="nav-toggle" type="button" aria-controls="primary-navigation" aria-expanded="false" data-nav-toggle>
+          <span>Menu</span>
+          <span class="nav-toggle__icon" aria-hidden="true"><span></span><span></span><span></span></span>
+        </button>
+        <nav id="primary-navigation" class="site-nav" aria-label="Primary" data-nav-menu>
+          <ul class="site-nav__list">
+            <li><a class="site-nav__link" href="index.html" aria-current="page">Home</a></li>
+            <li><a class="site-nav__link" href="#stories">Stories</a></li>
+            <li><a class="site-nav__link" href="about.html">About</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="hero section-shell site-shell">
+        <div class="hero__content">
+          <p class="eyebrow">Accessible audio and video storytelling</p>
+          <h1>Stories that everyone can hear, watch, and experience</h1>
+          <p class="hero__lede">StoryCast curates editorial stories with clear structure, transcripts, captions, and keyboard-friendly navigation so more people can engage with media in the way that works best for them.</p>
+          <div class="hero__actions">
+            <a class="button button--primary" href="#stories">Explore stories</a>
+            <a class="button button--ghost" href="about.html">How access works</a>
+          </div>
+          <dl class="hero__stats" aria-label="StoryCast highlights">
+            <div>
+              <dt>3</dt>
+              <dd>launch stories</dd>
+            </div>
+            <div>
+              <dt>100%</dt>
+              <dd>captioned or transcribed</dd>
+            </div>
+            <div>
+              <dt>AA</dt>
+              <dd>contrast and focus support</dd>
+            </div>
+          </dl>
+        </div>
+        <figure class="hero__media">
+          <img src="assets/images/storycast-hero.svg" alt="Abstract illustration of audio waves, a video frame, and layered editorial cards in StoryCast colors.">
+          <figcaption>Built around accessible media patterns from the first screen to the last transcript line.</figcaption>
+        </figure>
+      </section>
+
+      <section id="stories" class="section-shell site-shell" aria-labelledby="featured-stories-title">
+        <div class="section-heading">
+          <p class="eyebrow">Featured stories</p>
+          <h2 id="featured-stories-title">Start with a story, stay for the experience</h2>
+          <p class="section-intro">Each feature pairs a strong editorial point of view with practical accessibility support, from downloadable transcripts to captions and visible focus states.</p>
+        </div>
+
+        <div class="story-grid">
+          <article class="story-card">
+            <figure class="story-card__media">
+              <img src="assets/images/voices-of-kigali-thumb.svg" alt="Illustration of Kigali rooftops and sound waves in navy and coral tones.">
+            </figure>
+            <div class="story-card__content">
+              <div class="story-card__meta">
+                <span class="badge badge--audio">Audio</span>
+                <span class="badge badge--category">Culture</span>
+              </div>
+              <div>
+                <h3>Voices of Kigali</h3>
+                <p>A dawn soundscape of markets, bike paths, and community radio that reveals how Kigali listens to itself.</p>
+              </div>
+              <div class="story-card__footer">
+                <span class="muted">9 min 45 sec</span>
+                <a class="text-link" href="story/voices-of-kigali.html">Read more</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="story-card">
+            <figure class="story-card__media">
+              <img src="assets/images/future-innovation-thumb.svg" alt="Illustration of a video frame, data nodes, and a laptop in the StoryCast palette.">
+            </figure>
+            <div class="story-card__content">
+              <div class="story-card__meta">
+                <span class="badge badge--video">Video</span>
+                <span class="badge badge--category">Innovation</span>
+              </div>
+              <div>
+                <h3>Future of African Innovation</h3>
+                <p>Meet researchers, makers, and local entrepreneurs building climate-smart tools and accessible digital services.</p>
+              </div>
+              <div class="story-card__footer">
+                <span class="muted">4 min 48 sec</span>
+                <a class="text-link" href="story/future-of-african-innovation.html">Read more</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="story-card">
+            <figure class="story-card__media">
+              <img src="assets/images/artisans-journey-thumb.svg" alt="Illustration of woven texture, hands, and craft materials in warm coral and navy colors.">
+            </figure>
+            <div class="story-card__content">
+              <div class="story-card__meta">
+                <span class="badge badge--audio">Audio</span>
+                <span class="badge badge--category">Community</span>
+              </div>
+              <div>
+                <h3>The Artisan's Journey</h3>
+                <p>A reflective portrait of a basket weaver whose practice connects family memory, material craft, and sustainable design.</p>
+              </div>
+              <div class="story-card__footer">
+                <span class="muted">30 min</span>
+                <a class="text-link" href="story/artisans-journey.html">Read more</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-shell site-shell" aria-labelledby="categories-title">
+        <div class="section-heading">
+          <p class="eyebrow">Browse by theme</p>
+          <h2 id="categories-title">Stories organized around listening, watching, and learning</h2>
+          <p class="section-intro">The homepage makes it easy to move from one editorial lens to another without losing orientation.</p>
+        </div>
+        <div class="category-list" aria-label="Story categories">
+          <a href="#stories">Culture</a>
+          <a href="#stories">Innovation</a>
+          <a href="#stories">Community</a>
+          <a href="#stories">Education</a>
+        </div>
+      </section>
+
+      <section class="section-shell site-shell" aria-labelledby="access-title">
+        <div class="section-heading">
+          <p class="eyebrow">Access first</p>
+          <h2 id="access-title">A microsite designed to work with people, not around them</h2>
+          <p class="section-intro">High contrast, visible focus states, semantic structure, and clear media alternatives support a range of browsers, devices, and assistive technologies.</p>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card">
+            <div class="feature-card__icon" aria-hidden="true">T</div>
+            <div>
+              <h3>Transcripts</h3>
+              <p>Every audio story includes a text transcript with speaker labels and a downloadable copy.</p>
+            </div>
+          </article>
+          <article class="feature-card">
+            <div class="feature-card__icon" aria-hidden="true">C</div>
+            <div>
+              <h3>Captions</h3>
+              <p>Video stories ship with caption tracks so spoken content stays readable on every device.</p>
+            </div>
+          </article>
+          <article class="feature-card">
+            <div class="feature-card__icon" aria-hidden="true">K</div>
+            <div>
+              <h3>Keyboard support</h3>
+              <p>Skip links, focus rings, and a fully operable menu keep navigation predictable.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="site-shell site-footer__inner">
+        <p>Copyright <span data-year></span> StoryCast.</p>
+        <div class="site-footer__links" aria-label="Footer links">
+          <a href="about.html#accessibility">Accessibility statement</a>
+          <a href="mailto:hello@storycast.audio">hello@storycast.audio</a>
+          <a href="https://www.instagram.com/" rel="noopener noreferrer">Instagram</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
